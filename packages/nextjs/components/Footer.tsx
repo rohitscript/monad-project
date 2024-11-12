@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import { MonadLogo } from "./assets/MonadLogo";
 import { hardhat } from "viem/chains";
 import { CurrencyDollarIcon, MagnifyingGlassIcon } from "@heroicons/react/24/outline";
 import { HeartIcon } from "@heroicons/react/24/outline";
@@ -65,10 +66,21 @@ export const Footer = () => {
                 <BuidlGuidlLogo className="w-3 h-5 pb-1" />
                 <span className="link">BuidlGuidl</span>
               </a>
+              <p>and</p>
+              <a
+                className="flex justify-center items-center gap-1"
+                href="https://buidlguidl.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <MonadLogo className="w-3 h-5 pb-1" />
+                <span className="link">Monad</span>
+              </a>
             </div>
             <span>·</span>
             <div className="text-center">
               <a href="https://t.me/joinchat/KByvmRe5wkR-8F_zz6AjpA" target="_blank" rel="noreferrer" className="link">
+                {/* TODO: Add link to github repo to create issue */}
                 Support
               </a>
             </div>
