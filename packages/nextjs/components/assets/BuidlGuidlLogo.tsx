@@ -2,9 +2,9 @@ export const BuidlGuidlLogo = ({ className }: { className: string }) => {
   return (
     <svg
       className={className}
-      width="53"
-      height="72"
-      viewBox="0 0 53 72"
+      width="42"
+      height="60"
+      viewBox="0 0 42 60"
       fill="currentColor"
       xmlns="http://www.w3.org/2000/svg"
     >
