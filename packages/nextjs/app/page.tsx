@@ -45,8 +45,8 @@ const Home: NextPage = () => {
               <BoltIcon className="h-8 w-8" />
               <p>
                 Get testnet funds from the{" "}
-                <Link href="" passHref className="link">
-                  {/* TODO: Add explorer link here */}Faucet
+                <Link href="#" passHref className="link">
+                  {/* TODO: Add Faucet link here */}Faucet
                 </Link>{" "}
               </p>
             </div>
@@ -65,7 +65,7 @@ const Home: NextPage = () => {
               <p>
                 Explore your local transactions with the{" "}
                 <Link href="" passHref className="link">
-                  {/* TODO: Add explorer link here */}Block Explorer
+                  {/* TODO: Add Explorer link here */}Block Explorer
                 </Link>{" "}
                 tab.
               </p>
