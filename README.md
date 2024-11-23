@@ -6,11 +6,7 @@
 
 <h4 align="center">
   <a href="https://docs.monad.xyz">Documentation</a>
-  
-  <!---
-TODO: add Issues page link for the repo
-<a href="#">Report Issue</a>
--->
+  | <a href="https://github.com/monad-devrel/scaffold-eth-monad/issues">Report Issue</a>
 
 </h4>
 
@@ -38,12 +34,14 @@ To get started, follow the steps below:
 
 1. Clone this repo & install dependencies
 
-<!-- TODO: Change the Repo URL below -->
-
+```sh
+git clone https://github.com/monad-devrel/scaffold-eth-monad.git
 ```
-git clone https://github.com/scaffold-eth/scaffold-eth-2.git
-cd scaffold-eth-2
-yarn install
+
+2. Open the project directory and install dependencies
+
+```sh
+cd scaffold-eth-monad && yarn install
 ```
 
 2. Setup `.env` file for Hardhat:
