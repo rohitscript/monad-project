@@ -6,7 +6,7 @@
 
 <h4 align="center">
   <a href="https://docs.monad.xyz">Documentation</a>
-  | <a href="https://github.com/monad-devrel/scaffold-eth-monad/issues">Report Issue</a>
+  | <a href="https://github.com/monad-developers/scaffold-eth-monad/issues">Report Issue</a>
 
 </h4>
 
@@ -35,7 +35,7 @@ To get started, follow the steps below:
 1. Clone this repo & install dependencies
 
 ```sh
-git clone https://github.com/monad-devrel/scaffold-eth-monad.git
+git clone https://github.com/monad-developers/scaffold-eth-monad.git
 ```
 
 2. Open the project directory and install dependencies
