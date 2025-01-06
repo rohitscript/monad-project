@@ -20,7 +20,15 @@ const ScaffoldEthApp = ({ children }: { children: React.ReactNode }) => {
     <>
       <div className="flex flex-col min-h-screen">
         <Header />
-        <main className="relative flex flex-col flex-1">{children}</main>
+        <main className="relative flex flex-col flex-1">
+          {children}
+
+          <iframe
+            src="https://embed.ipfscdn.io/ipfs/bafybeigdie2yyiazou7grjowoevmuip6akk33nqb55vrpezqdwfssrxyfy/erc1155.html?contract=0x80aee40B8E45769F43A2C2C737b0b000Cf0DD3c8&chain=%7B%22name%22%3A%22monad-devnet%22%2C%22chain%22%3A%22%22%2C%22rpc%22%3A%5B%22https%3A%2F%2Fdevnet1.monad.xyz%2Frpc%2F8XQAiNSsPCrIdVttyeFLC6StgvRNTdf%22%5D%2C%22nativeCurrency%22%3A%7B%22symbol%22%3A%22DMON%22%2C%22name%22%3A%22DMON%22%2C%22decimals%22%3A18%7D%2C%22shortName%22%3A%22monad-devnet%22%2C%22chainId%22%3A41454%2C%22testnet%22%3Atrue%2C%22slug%22%3A%22monad-devnet%22%7D&clientId=5dddfcac6342c956d4a9749337a3ab49&tokenId=0&theme=dark&primaryColor=purple"
+            width="100%"
+            height="750px"
+          ></iframe>
+        </main>
         <Footer />
       </div>
       <Toaster />
